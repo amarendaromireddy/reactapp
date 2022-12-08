@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.fd {
+  width: 100%;
+  float: left;
+}
+
+.df {
+  display: flex;
+}
+
+.booksDv img {
+  width: 100%;
+}
+.booksDv {
+  background: #ddd;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.fd.title span {
+  background: #080;
+  color: #fff;
+  padding: 2px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+a.buyBtn {
+  float: left;
+  background: linear-gradient(#0077ff, #005c83);
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+  width: 80px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bookTab.df {
+  width: 20%;
+}
+
+@media(max-width: 767px){
+  .bookTab.df {
+  width: 100%;
+  }
+}
+
+.books_auth p {margin: 0;}
